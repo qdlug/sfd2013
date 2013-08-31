@@ -3,7 +3,7 @@
 <html lang="en" class="wf-omnespro-n2-active wf-omnespro-n3-active wf-proximanova-n1-active wf-proximanova-n4-active wf-proximanova-n7-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Base – Pure</title>
+<title>{% if page.title %}{{ page.title }} | {% endif %}SFD2013 | QDLUG</title>
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.1/pure-min.css">
 <link rel="stylesheet" href="http://purecss.io/combo/1.5.4?/css/main.css&/css/rainbow/baby-blue.css">
 </script><script src="./js/ajf8ggy.js"></script>
@@ -391,22 +391,7 @@ footer p + p {
         </ul>
       </header>
       <section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      {{ content }}
       </section>
     </div>
     <footer>
