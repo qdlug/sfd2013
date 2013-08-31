@@ -385,13 +385,27 @@ footer p + p {
 
     <div class="wrapper">
       <header>
-      <a href="http://qdlug.github.com/sfd2013/"><img src="/sfd2013/img/banner2013t.png">
-        <ul>
-          <li><a href="https://github.com/qdlug/sfd2013/wiki">View On <strong>Wiki</strong></a></li>
-        </ul>
+
+
+<div class="pure-g-r">
+
+    <div class="pure-u-4-5"><a href="http://qdlug.github.com/sfd2013/"><img src="/sfd2013/img/banner2013t.png"></div>
+    <div class="pure-u-1-5"><a href="https://github.com/qdlug/sfd2013/wiki" class="pure-button pure-button-primary">View On <strong>Wiki</strong></a></li></ul></div>
+
+</div>
+
       </header>
       <section>
-      {{ content }}
+        <div class="pure-menu pure-menu-open pure-menu-horizontal">
+          <ul>
+              <li><a href="/sfd2013/">Home</a></li>
+              <li><a href="/sfd2013/archives.html">Archives</a></li>
+              <li><a href="/sfd2013/atom.xml">Atom</a></li>
+          </ul>
+        </div>
+        <div style="padding-top:15px;padding-left:10px;padding-right:10px;padding-bottom:10px;">
+          {{ content }}
+        </div>
       </section>
     </div>
     <footer>

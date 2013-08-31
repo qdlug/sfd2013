@@ -2,15 +2,7 @@
 layout: default
 date: Index
 ---
-<div class="pure-menu pure-menu-open pure-menu-horizontal">
-    <ul>
-        <li class="pure-menu-selected"><a href="/sfd2013/">Home</a></li>
-        <li><a href="/sfd2013/archieves.html">Archieves</a></li>
-        <li><a href="/sfd2013/atom.xml">Atom</a></li>
-    </ul>
-</div>
-
-{% for rpost in paginator.posts %}
+  {% for rpost in paginator.posts %}
 	<article class="post fn-clear">
         <h2 class="post-title"><a href="{{ site.url }}{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></h2>
         <p class="time"><time pubdate="{{ rpost.date }}">{{ rpost.date | date_to_string }}</time></p>
