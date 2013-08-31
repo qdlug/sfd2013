@@ -3,9 +3,6 @@ layout: default
 title: SFD青岛站
 ---
 ## SFD 2013
-<div>
-<a href="http://www.softwarefreedomday.org/"><img src="http://www.softwarefreedomday.org/countdown/banner1-UTC+8-zh_CN.png" border="0" width="160" height="90" alt="让我们一起为09月21日的自由软件日(SFD)庆祝吧！"></a>
-</div>
 *经过各位的努力, 2011年SFD活动青岛站即将于9月21日在中国海洋大学举行. *
 
 你是开源爱好者么? 你参与过开源社区的活动么? 你了解自由软件日么?  现在我们为广大的同学提供一个了解开源, 交流开源产品的平台, 同时, 你还可以锻炼自己的组织能力和演讲能力, 找到属于自己的一个新舞台.
