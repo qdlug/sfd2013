@@ -4,12 +4,12 @@ markdown:         rdiscount
 pygments:         true
 paginate:         4
 
-title:            MY Sun's blog
-url:              http://qdlug.github.com/sfd2013
+title:            SFD 2013
+url:              http://qdlug.github.io/sfd2013
 author:
     name:         SimonMYSun
     email:        simonmysun@gmail.com
-    description:  "Simon MY Sun's blog"
+    description:  "SFD 2013"
 
 about:            "Learning maths, TCS, and .etc. "
 follow:
@@ -25,10 +25,6 @@ imageLink:        http://hdn.xnimg.cn/photos/hdn521/20130620/2210/h_large_j3zZ_b
 
 
 style:            /css/style.css
-blogName:         MY Sun
-blogDesc:         Life Journal here
+blogName:         SFD 2013
+blogDesc:         SFD 2013
 favicon:          /favicon.ico
-theme:            blue
-
-copyright:        Copyright © 2011-2012 MYSun All rights reserved.
-test:             ok
