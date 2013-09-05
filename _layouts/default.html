@@ -11,22 +11,21 @@
 <style>
   @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
   html {
-  background: #6C7989;
-  background: #6c7989 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6c7989), color-stop(100%, #434b55)) fixed;
-  background: #6c7989 -webkit-linear-gradient(#6c7989, #434b55) fixed;
-  background: #6c7989 -moz-linear-gradient(#6c7989, #434b55) fixed;
-  background: #6c7989 -o-linear-gradient(#6c7989, #434b55) fixed;
-  background: #6c7989 -ms-linear-gradient(#6c7989, #434b55) fixed;
-  background: #6c7989 linear-gradient(#6c7989, #434b55) fixed;
+  background: #7F756B;
   }
 
   body {
   padding: 50px 0;
   margin: 0;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #555;
+  color: #7F756B;
   font-weight: 300;
-  }
+  background: url("/sfd2013/img/bg.png");
+  background-size: 100%;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=”/sfd2013/img/bg.png”, sizingMethod=’scale’);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+   }
 
   .wrapper {
   width: 800px;
@@ -370,34 +369,18 @@
   try { Typekit.load(); } catch (e) {}
 </script>
 <style type="text/css"></style></head>
-  <body style="background: #7F756B url(/sfd2013/img/bg.png) 0 45px no-repeat;background-attachment:fixed">
+  <body><!-- style="background:#7F756B >-->
+
     <!--___________________________________________Content Start_______________________________________________-->
     <div class="wrapper">
       <header>
 	<div class="pure-g-r">
 	  <div class="pure-u-4-5">
-	      <a href="http://qdlug.github.com/sfd2013/">
-		<img src="/sfd2013/img/banner2013t.png">
-	      </a>
+	      <a href="http://qdlug.github.com/sfd2013/"><img src="/sfd2013/img/banner2013t.png" width="633px" alt="BannerSFD2013"></a>
 	  </div>
 	  <div class="pure-u-1-5">
-      <small><a href="https://github.com/qdlug/sfd2013/wiki" class="pure-button pure-button-primary">
-		View On <strong>Wiki</strong>
-	      </a>
-	      <br>
-	      <br>
-	      <p>
-		距离
-	      </p>
-	      <p>
-		Software Freedom Day
-	      </p>
-	      <p>
-		　　　2013
-	      </p>
-	      <p>
-		　　　　还有<big><b><script type="text/javascript">var EDC = new Date("2013/09/21");var now = new Date();document.write(Math.round((EDC-now)/(86400000)))</script></b></big>天.
-      </p></small>
+      <p><br><a href="https://github.com/qdlug/sfd2013/wiki" class="pure-button pure-button-primary">View On <strong>Wiki</strong></a></p>
+        <p style="font-color:EEEEFF"><br>距离<br>Software Freedom Day<br>　　　2013<br>　　　　还有<big><b><script type="text/javascript">var EDC = new Date("2013/09/21");var now = new Date();document.write(Math.round((EDC-now)/(86400000)))</script></b></big>天. </p>
 	  </div>
 	</div>
       </header>
@@ -424,7 +407,7 @@
     <footer>
       <p>Event held by <a href="#">CoYouth Club</a></p>
       <p>Hosted on GitHub Pages —  Theme by <a href="http://purecss.io/">Pure UI</a> &#38; <a href="https://github.com/orderedlist">orderedlist</a>. </p>
-      <br><img src="/sfd2013/img/cc.png" width="100%">
+      <br><img src="/sfd2013/img/cc.png" width="100%" alt="CoYouth Club logo">
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
@@ -440,5 +423,6 @@
 
 </script>
     <!--Content end-->
+    </div>
     <script src="./js/1.5.4"></script>
 </body></html>
