@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 软件自由日（Software Freedom Day，SFD）青岛站
 ---
 ## 软件自由日（Software Freedom Day，SFD）2013
