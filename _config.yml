@@ -4,31 +4,19 @@ markdown:         rdiscount
 pygments:         true
 paginate:         4
 
-title:            MY Sun's blog
+title:            QDLUG
 url:              http://qdlug.github.com/sfd2013
-author:
-    name:         SimonMYSun
-    email:        simonmysun@gmail.com
-    description:  "Simon MY Sun's blog"
-
-about:            "Learning maths, TCS, and .etc. "
-follow:
-    email:        simonmysun@gmail.com
-    github:       https://github.com/simonmysun
-    twitter:      http://www.twitter.com/simonmysun
-    google:       https://plus.google.com/116961333351449443401
-    facebook:     https://facebook.com/simonmysun
-description:      The Blog of MY Sun
 
 indexContent:     true
-imageLink:        http://hdn.xnimg.cn/photos/hdn521/20130620/2210/h_large_j3zZ_b2f5000005b1113e.jpg
-
 
 style:            /css/style.css
-blogName:         MY Sun
-blogDesc:         Life Journal here
+blogName:         SFD2013
+blogDesc:         Software Freedom Day
 favicon:          /favicon.ico
 theme:            blue
 
-copyright:        Copyright © 2011-2012 MYSun All rights reserved.
-test:             ok
+copyright:        Copyright © 2011-2012 QDLUG All rights reserved.
+
+eventdate:        2013/09/21
+sitenotice:       经过各位的努力, 2013年SFD活动青岛站即将于9月21日在中国海洋大学举行.
+wikiurl:          http://wiki.softwarefreedomday.org/2013/China/Qingdao/CoYouth_Club/Home
